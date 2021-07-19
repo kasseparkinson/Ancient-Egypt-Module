@@ -1,19 +1,43 @@
-<!DOCTYPE html>
 <html>
-
-	<head>
-		<title>Ancient Egypt</title>
+    <head>
+        <LINK rel="stylesheet" href="style.css" type="text/css"></LINK>
+		<title>
+			IDTL Sample#1
+		</title>    
 	</head>
-
-	<body>
-		<h1>Hello students!</h1>
-		<p>Miss Kasse here and this module is all about Ancient Egypt. 
-    <br>This is where I will be posting all of the resources and materials needed to complete this module.<br/>
-    <br>Thanks for visiting.</p>
-	</body>
-	
-	<footer>
-		<title1>Miss Kasse 				| Ancient Egpyt 					| University of Florida</title1>
-	</footer>
-	
+    <body>
+        <div id="container">
+            
+            <div id="header">
+                <font color="white"><h1>IDTL Sample #1</h1></font>
+            </div>
+            
+            <div id="navigation">
+                <ul>
+                    <li><a href="index.html">&nbsp;Home&nbsp;</a></li>
+                    <li><a href="overview.html">&nbsp;Course Overview&nbsp;</a></li>
+				    <li><a href="syllabus.html">&nbsp;Syllabus&nbsp;</a></li>
+                    <li><a href="modules.html">&nbsp;Modules&nbsp;</a></li>
+                    <li><a href="resources.html">&nbsp;Additional Resources&nbsp;</a></li>
+                    <li><a href="instructor.html">&nbsp;Instructor&nbsp;</a></li>
+			     </ul>
+                <hr>
+            </div>
+            
+            <div id="contentleft">
+                <img style="border:5px gray; border-style:double; border-radius: 5px; margin-left: 10px" src="pictures/frontpage.png"	width="90%"	height="370">
+            </div>  
+            
+            <div id="contentright">
+                <p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>  
+            
+            <div id="footer">
+                Bojan Lazarevic &nbsp;&nbsp;|&nbsp;&nbsp;
+                Educational Technology &nbsp;&nbsp;|&nbsp;&nbsp;
+                University of Florida &nbsp;&nbsp;|&nbsp;&nbsp;
+                Gainesville, Florida &nbsp;&nbsp;&nbsp;&nbsp;
+            </div>       
+        </div>                   
+		</body>
 </html>
